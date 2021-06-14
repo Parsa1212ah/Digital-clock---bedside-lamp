@@ -1,0 +1,13 @@
+atmega32×1
+DS1307×1
+2n2222×8
+7805×1
+CR2032×1
+CR2032 socket×1
+crystal 32768×1
+capacitor 47uF-10-16V×1
+Resistor 4.7kΩ×2 - 4.7kΩ×4 - 330Ω×4
+RGB=15Cm
+LED oval×58
+Adaptor 12V×1
+button×4
