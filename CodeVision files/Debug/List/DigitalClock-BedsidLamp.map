@@ -1,0 +1,21 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x00033    164
+rtc_init                                                                          0x000D7     21
+rtc_get_time                                                                      0x000EC     27
+rtc_set_time                                                                      0x00107     19
+bcd2bin                                                                           0x0011A     13
+bin2bcd                                                                           0x00127     10
