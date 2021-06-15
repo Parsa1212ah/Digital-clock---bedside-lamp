@@ -2,7 +2,7 @@
 This program was created by the
 CodeWizardAVR V3.12 Advanced
 Automatic Program Generator
-© Copyright 1998-2014 Pavel Haiduc, HP InfoTech s.r.l.
+Â© Copyright 1998-2014 Pavel Haiduc, HP InfoTech s.r.l.
 http://www.hpinfotech.com
 
 Project : Digital clock and bedside lamp
@@ -115,7 +115,7 @@ while (1)
   
   PORTB=seg[10]; 
   
-  if(h>12){h=0;rtc_set_time(h,m,s);}
+  if(h>12){h=1;rtc_set_time(h,m,s);}
   if(m>59){m=0;rtc_set_time(h,m,s);}
   if(PIND.3==0)i++;
   if(i>8)i=0;
